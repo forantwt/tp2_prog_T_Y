@@ -26,7 +26,9 @@ int main()
         cout << "Bonjour, que souhaitez vous faire?" << endl
             << "[1] - Creer une creature" << endl
             << "[2] - Voir vos creations" << endl
-            << "[3] - Fermer le programme" << endl;
+			<< "[3] - Modifier la premiere creature" << endl
+			<< "[4] - Supprimer toutes les creatures" << endl
+            << "[5] - Fermer le programme" << endl;
 
         int choix = 0;
         cin >> choix;
@@ -75,8 +77,53 @@ int main()
                 }
             }
         }
-
         else if (choix == 3)
+        {
+            cout << "Modification de la premiere creature." << endl;
+            if (!creatures.empty())
+            {
+				string newName;
+				cout << "Entrez le nouveau nom de la creature: ";
+				cin >> newName;
+
+                int newPV;
+				cout << "Entrez les nouveaux points de vie de la creature: ";
+				cin >> newPV;
+
+				int newAttaque;
+				cout << "Entrez les nouveaux points d'attaque de la creature: ";
+				cin >> newAttaque;
+
+				int newDef;
+				cout << "Entrez les nouveaux points de defense de la creature: ";
+				cin >> newDef;
+                
+
+                creatures[0]->updateCreatureStats(newName, newPV, newAttaque, newDef);
+                cout << "Creature modifiee avec succes!" << endl;
+
+                cout << "\n=== Nouveau stats de la creature ===" << endl;
+                cout << "Nom : " << newName << endl;
+                cout << "PV : " << newPV << endl;
+                cout << "Attaque : " << newAttaque << endl;
+                cout << "Defense : " << newDef << endl;
+            }
+            else
+            {
+                cout << "Aucune creature a modifier." << endl;
+            }
+        }
+        else if (choix == 4)
+        {
+            cout << "Suppression de toutes les creatures." << endl;
+            for (Creature* c : creatures)
+            {
+                delete c;
+            }
+            creatures.clear();
+        }
+
+        else if (choix == 5)
         {
             cout << "Fermeture du programme." << endl;
             FermerProgramme = true;
@@ -86,6 +133,9 @@ int main()
         {
             cout << "Choix Invalide" << endl << endl;
         }
+
+        
+
     }
 
     for (Creature* c : creatures)

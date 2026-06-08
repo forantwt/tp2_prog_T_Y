@@ -30,6 +30,13 @@ public:
 	{
 		return attaque;
 	}
+	void updateCreatureStats(const std::string& newInputNom, int newPointVie, int newAttaque, int newDef)
+	{
+		nom = newInputNom;
+		pointVie = newPointVie;
+		degatAttaque = newAttaque;
+		valeurDefense = newDef;
+	}
 };
 
 
