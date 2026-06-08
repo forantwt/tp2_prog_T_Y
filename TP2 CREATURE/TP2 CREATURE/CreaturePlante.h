@@ -1,12 +1,17 @@
 #pragma once
-class CreaturePlante
+#include "Creature.h"
+
+class CreaturePlante : public Creature
 {
 public:
 
-	CreaturePlante()
-	{
-		// r´eg´en`ere 5% de ses points de vie `a la fin de chaque tour.
-		
-	}
-};
+    CreaturePlante(std::string nom, int pv, int attaque, int defense)
+        : Creature(nom, pv, attaque, defense)
+    {
+    }
 
+    void FinDeTour() override
+    {
+        pointVie += (int)(pointVie * 0.05);
+    }
+};

@@ -18,16 +18,7 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CreatureFeu.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CreatureEau.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CreaturePlante.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CreatureElectrique.cpp">
+    <ClCompile Include="CreationCreature.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -45,6 +36,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CreatureElectrique.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreationCreature.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

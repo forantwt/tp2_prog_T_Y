@@ -4,32 +4,32 @@
 class Creature
 {
 public:
-	 std::string nom = "";
-     int pointVie = 0;
-	 int degatAttaque = 0;
-	 int valeurDefense = 0;
-
+	std::string nom = "";
+	int pointVie = 0;
+	int degatAttaque = 0;
+	int valeurDefense = 0;
 
 	//constructeur
 	Creature(std::string nomCreature, int pointDeVie, int DegatsAttaque, int ValeurDefense)
 	{
-		//nom
-		nom = nomCreature; 
-		
-		//pv
+		nom = nomCreature;
 		pointVie = pointDeVie;
-
-		//attaque
 		degatAttaque = DegatsAttaque;
-		
-		//defense
 		valeurDefense = ValeurDefense;
-    }
-
-	//destructeurs
+	}
+	///destructeurs
 	virtual ~Creature()
-	{
+	{}
 
+	//Plante
+	virtual void FinDeTour()
+	{}
+
+	//Electrique
+	virtual int ModifierAttaque(int attaque)
+	{
+		return attaque;
 	}
 };
+
 
