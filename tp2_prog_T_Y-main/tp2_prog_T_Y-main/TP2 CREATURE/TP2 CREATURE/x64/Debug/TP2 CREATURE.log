@@ -1,0 +1,35 @@
+﻿  main.cpp
+C:\Users\layou\Desktop\tp2_prog_T_Y-main\tp2_prog_T_Y-main\TP2 CREATURE\TP2 CREATURE\Creature.h(54,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\layou\Desktop\tp2_prog_T_Y-main\tp2_prog_T_Y-main\TP2 CREATURE\TP2 CREATURE\Creature.h(56,27): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\layou\Desktop\tp2_prog_T_Y-main\tp2_prog_T_Y-main\TP2 CREATURE\TP2 CREATURE\Creature.h(61,15): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\layou\Desktop\tp2_prog_T_Y-main\tp2_prog_T_Y-main\TP2 CREATURE\TP2 CREATURE\CreatureFeu.h(17,49): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'main.cpp')
+  
+C:\Users\layou\Desktop\tp2_prog_T_Y-main\tp2_prog_T_Y-main\TP2 CREATURE\TP2 CREATURE\CreatureFeu.h(19,53): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'main.cpp')
+  
+C:\Users\layou\Desktop\tp2_prog_T_Y-main\tp2_prog_T_Y-main\TP2 CREATURE\TP2 CREATURE\CreatureEau.h(17,49): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'main.cpp')
+  
+C:\Users\layou\Desktop\tp2_prog_T_Y-main\tp2_prog_T_Y-main\TP2 CREATURE\TP2 CREATURE\CreatureEau.h(19,47): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'main.cpp')
+  
+C:\Users\layou\Desktop\tp2_prog_T_Y-main\tp2_prog_T_Y-main\TP2 CREATURE\TP2 CREATURE\CreaturePlante.h(20,52): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'main.cpp')
+  
+C:\Users\layou\Desktop\tp2_prog_T_Y-main\tp2_prog_T_Y-main\TP2 CREATURE\TP2 CREATURE\CreaturePlante.h(22,52): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'main.cpp')
+  
+C:\Users\layou\Desktop\tp2_prog_T_Y-main\tp2_prog_T_Y-main\TP2 CREATURE\TP2 CREATURE\CreatureElectrique.h(29,50): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'main.cpp')
+  
+C:\Users\layou\Desktop\tp2_prog_T_Y-main\tp2_prog_T_Y-main\TP2 CREATURE\TP2 CREATURE\CreatureElectrique.h(31,48): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'main.cpp')
+  
+  TP2 CREATURE.vcxproj -> C:\Users\layou\Desktop\tp2_prog_T_Y-main\tp2_prog_T_Y-main\TP2 CREATURE\x64\Debug\TP2 CREATURE.exe
